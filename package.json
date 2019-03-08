@@ -1,0 +1,30 @@
+{
+  "name": "fast-is-utf8",
+  "version": "1.0.0",
+  "description": "Fast check if buffer is UTF8 encoding",
+  "main": "index.js",
+  "dependencies": {
+    "node-gyp-build": "^3.3.0"
+  },
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "is-utf8": "^0.2.1",
+    "prebuildify": "^2.6.0",
+    "tape": "^4.9.0"
+  },
+  "scripts": {
+    "install": "node-gyp-build",
+    "test": "tape test.js",
+    "prebuild": "prebuildify --napi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d-band/fast-is-utf8.git"
+  },
+  "author": "d-band",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d-band/fast-is-utf8/issues"
+  },
+  "homepage": "https://github.com/d-band/fast-is-utf8"
+}
